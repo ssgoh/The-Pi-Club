@@ -1,5 +1,9 @@
-How do I download a single file from a GitHub repository?
-On github, open the file you want to download.
-Locate the "Raw" button adjacent to the "Blame" button.
-Press "Alt" on your keyboard and left-click on your mouse at the same time.
+You may have discovered that all files with .py extension do not 
+have a download button.
+
+So, how do I download python filesfrom a GitHub repository?
+
+On github, open the python file you want to download, by clicking its link.
+Once opened, locate the "Raw" button adjacent to the "Blame" button.
+Press "Alt" on your keyboard and left-click on your mouse on the Raw Button at the same time.
 The file will download automatically to your default download folder
