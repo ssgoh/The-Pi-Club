@@ -8,4 +8,7 @@ response=channel.update({'field1':light,'field2':temperature,'field3':humidity})
 
 Codes are in Python Code Folder
 
+Suggested Parts List for self learning and future club meetings can be found in recommended_components.docx
+
+
 
