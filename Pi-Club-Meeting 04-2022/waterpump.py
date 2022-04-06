@@ -41,7 +41,7 @@ while True:
     distance = distance / 2
     distance=round(distance,2)
     
-    if distance <= 50:
+    if distance >= 50:
         print("distance:",distance,"cm")
         GPIO.output(26,False) #ON PUMP to top up water tank
     else:
