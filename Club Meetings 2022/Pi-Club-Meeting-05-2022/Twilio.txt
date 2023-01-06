@@ -1,0 +1,40 @@
+iamssgoh@gmail.com
+TAquarius#090317
+
+iFEwbNZGB65iuwOZ-FaOr0j4ie-ffLUIsgjo9xxm
+
+Account SSID
+AC03e1b8e686e0a01ca68803d577cf7dfa
+
+Auth Token
+48beb2341cbd836d9037a978fb022bbf
+
+Phone No
++12766771625
+
+Documentation 
+https://www.twilio.com/docs
+
+
+https://www.twilio.com/docs/sms
+
+
+
+48beb2341cbd836d9037a978fb022bbf
+
+AC03e1b8e686e0a01ca68803d577cf7dfa
+
+
+AC417f89c2329a233e07825dfe206fce7d
+
+4c632d8d8cb1e2c4dacf4ce83b60cb9c
+
+SID
+AC8d44cd0f81dfc14a309031e7d70afcc8
+Auth Token
+52e0e15c3dc9b7997f4768f880a83ed7
+
+twilio.com/console/sms/whatsapp/learn
+to activate account.
+Must send a test message
+
