@@ -4,7 +4,7 @@ import network
 import ubinascii
 #Setup
 #LED to indicate that wifi is connected
-status_led= Pin(28, Pin.OUT)
+status_led= Pin(14, Pin.OUT)
 status_led.off()  #set it off initially
 
 wlan = network.WLAN(network.STA_IF)
