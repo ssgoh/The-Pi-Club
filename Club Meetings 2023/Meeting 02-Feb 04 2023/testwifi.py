@@ -9,7 +9,6 @@ status_led.off()  #set it off initially
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-
 #Your wifi connection credentials here
 ssid = "ASUS"
 password = "Study090317"
@@ -19,6 +18,7 @@ while True:
     
     if wlan.isconnected():
         break
+
 status_led.on() 
 print("Wifi Connected" , wlan.ifconfig())
 mac = ubinascii.hexlify(wlan.config('mac'),':').decode()
