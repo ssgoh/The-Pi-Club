@@ -1,0 +1,26 @@
+Control Panel
+Security and Maintenance
+Windows Defender | Firewall
+Advanced settings
+Inbound Rules
+Actions
+   New Rule
+
+Select Port
+>>next
+Select TCP
+Specific local Port :  8086
+
+Next
+Allow the connection
+Select all Domain Private Public
+Next
+
+Provide a name for this rule :  InfluxDB8086
+Give a Description is required
+
+Finish
+
+This rule will be added to your Inbound Rules which will allow traffic into Port 8086
+
+
