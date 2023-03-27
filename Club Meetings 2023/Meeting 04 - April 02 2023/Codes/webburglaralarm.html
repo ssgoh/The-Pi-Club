@@ -1,0 +1,31 @@
+<!DOCTYPE html><html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+.buttonGreen { background-color: #4CAF50; border: 2px solid #000000;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }
+.buttonRed { background-color: #D11D53; border: 2px solid #000000;; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; }
+text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}
+</style></head>
+<body><center><h1>Burglar Alarm Control Panel</h1></center><br><br>
+<form><center>
+<center> <button class="buttonGreen" name="alarm" value="on" type="submit">ARM ALARM</button>
+<br><br>
+<center> <button class="buttonRed"   name="alarm" value="off" type="submit">DISARM ALARM</button>
+
+
+
+</form>
+<br><br>
+<br><br>
+ <script>
+    function sendPassword() {
+      var password = prompt("Enter your password:");
+      if (password != null) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://192.168.10.111", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.send("password=" + password);
+      }
+    }
+  </script>
+<p>%s<p></body></html>
