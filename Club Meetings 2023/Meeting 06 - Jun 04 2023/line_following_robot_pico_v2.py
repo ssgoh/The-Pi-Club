@@ -96,7 +96,7 @@ while True:
     else:
         stop()
         status_led.off()
-    utime.sleep(0.05)
+    utime.sleep(0.005)
  
  
  
