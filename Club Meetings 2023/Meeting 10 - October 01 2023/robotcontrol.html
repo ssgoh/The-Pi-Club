@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .button-row {
+      margin-bottom: 10px;
+    }
+
+    button {
+      width: 120px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #forward, #backward, #stop, #turnleft, #turnright {
+      margin-right: 10px;
+    }
+  </style>
+  <title>Control Buttons</title>
+</head>
+
+<body>
+<form>
+  <div class="container">
+    <div class="button-container">
+      <div class="button-row row">
+        <button type="submit" name="key" value="forward"  class="btn btn-primary">Forward</button>
+        <button type="submit" name="key" value="backward"  class="btn btn-success">Backward</button>
+      </div>
+      
+      <div class="button-row row">
+        <button type="submit" name="key" value="stop"  class="btn btn-danger">Stop</button>
+      </div>
+      
+      <div class="button-row row">
+        <button type="submit" name="key" value="turnleft"  class="btn btn-primary">Turn Left</button>
+        <button type="submit" name="key" value="turnright"  class="btn btn-success">Turn Right</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js are recommended, but not required -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</form>
+</body>
+</html>

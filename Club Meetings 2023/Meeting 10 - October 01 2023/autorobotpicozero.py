@@ -32,11 +32,13 @@ distance=0
 def getdistance():
     global distance
     while True:
-        distance = ds.distance * 100  #the sensor library returns distance in meters.
-                                      #multiply by 100 to get distance in cm                                                                                                   
-        sleep(.2)
-        
-
+        try:
+            distance = ds.distance * 100  #the sensor library returns distance in meters.
+                                          #multiply by 100 to get distance in cm                                                                                                   
+            sleep(.2)
+            
+        except:
+            pass
 
 def getbestdirection():
         rightdist =0
