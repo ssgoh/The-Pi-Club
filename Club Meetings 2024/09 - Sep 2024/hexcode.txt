@@ -1,0 +1,4 @@
+Green : #4CAF50
+Red   : #D11D53
+Cyan  : #09cbf5
+Blue  : #0970f5
