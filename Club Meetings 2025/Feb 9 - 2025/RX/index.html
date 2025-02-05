@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Sender</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h3 class="text-center mb-3">Send a Message</h3>
+                    <div class="form-group mb-3">
+                        <label for="messageBox" class="form-label">Your Message:</label>
+                        <textarea 
+                            id="messageBox" 
+                            class="form-control" 
+                            rows="3" 
+                            maxlength="140" 
+                            placeholder="Type your message here (max 140 characters)..."
+                        ></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button 
+                            id="sendButton" 
+                            class="btn btn-primary"
+                            onclick="sendMessage()"
+                        >Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const messageBox = document.getElementById('messageBox');
+            const message = messageBox.value.trim();
+
+            if (!message) {
+                alert('Please type something in the message box.');
+                return;
+            }
+
+            // Send the message as a GET request to the Pico web server
+            const xhr = new XMLHttpRequest();
+            const url = `/send-message?message=${encodeURIComponent(message)}`;
+            xhr.open('GET', url, true);
+            xhr.send();
+
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    alert('Message sent successfully!');
+                } else {
+                    alert('Failed to send message. Please try again.');
+                }
+            };
+        }
+    </script>
+</body>
+</html>
