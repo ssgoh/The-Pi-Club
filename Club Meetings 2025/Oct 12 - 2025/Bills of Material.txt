@@ -1,0 +1,8 @@
+Bills of Material for our meeting on 12 Oct
+
+Pico + Breadboard
+LDR  
+10k Ohm Resistor
+Jumper wires
+LED - red, green yellow
+
