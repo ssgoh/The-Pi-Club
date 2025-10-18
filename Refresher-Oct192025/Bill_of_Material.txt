@@ -1,0 +1,12 @@
+SG90 Servo Motor
+HCSR04 Ultrasonic Sensor 
+L298N Motor Driver
+Pre-Assembled Robotic Car
+Jumper Wires - M/F  Red, Green,White,Yellow,Brown,Blue (for motor driver L298N)
+Pico WH
+1xBuzzer
+2xRed and 1xGreen LED 
+1xButton
+1xPower Bank + Short micro USB cable 
+4x1.5V AA batteries
+Philips Screw Driver
