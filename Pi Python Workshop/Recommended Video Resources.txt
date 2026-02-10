@@ -8,3 +8,7 @@ Full python course for free
 
 https://www.youtube.com/watch?v=sFLRrsIln4k
 How to Learn Python With AI
+
+
+https://www.youtube.com/watch?v=nMCOB8KElwo
+User input in Python is easy + exercises
