@@ -1,0 +1,11 @@
+Robot 6 Voice Commands use to burn the firmward
+
+move car forward
+move forward
+move car backward
+move the car backward
+move car to the right
+turn car to the right
+move car to the left
+turn car to the left
+stop the car
